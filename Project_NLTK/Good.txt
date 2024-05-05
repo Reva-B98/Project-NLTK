@@ -1,0 +1,167 @@
+The performance in Election is fantastic
+
+
+(S[NUM='sg', PERSON=3, SENTIMENT='positive']
+  (NP[NUM='sg', PERSON=3]
+    (Det[NUM='sg'] The)
+    (N[NUM='sg', PERSON=3] performance)
+    (PrepP[NUM='sg'] (P[] in) (N[NUM='sg', PERSON=3] Election)))
+  (VP[NUM='sg', PERSON=3, SENTIMENT='positive']
+    (V[NUM='sg', PERSON=3] is)
+    (ADJ[SENTIMENT='positive'] fantastic[SENTIMENT=positive])))
+
+
+The director, who won several awards, creates a masterpiece
+
+(S[NUM='sg', PERSON=3, SENTIMENT='positive']
+  (NP[NUM='sg', PERSON=3]
+    (Det[NUM='sg'] The)
+    (N[NUM='sg', PERSON=3] director))
+  (Rel[]
+    (Pronoun[] who)
+    (VP[NUM='sg', PERSON=3, SENTIMENT='positive']
+      (V[NUM='sg', PERSON=3] won[SENTIMENT=positive])
+      (NP[NUM='pl']
+        (Det[NUM='pl'] several)
+        (N[NUM='pl'] awards[SENTIMENT=positive]))))
+  (VP[NUM='sg', PERSON=3, SENTIMENT='positive']
+    (V[NUM='sg', PERSON=3] creates)
+    (Det[NUM='sg'] a)
+    (N[NUM='sg', PERSON=3, SENTIMENT='positive']
+      masterpiece[SENTIMENT=positive])))
+
+
+The dialogue is tedious and the pacing slow
+
+(S[NUM='sg', PERSON=3, SENTIMENT='negative']
+  (NP[NUM='sg', PERSON=3]
+    (Det[NUM='sg'] The)
+    (N[NUM='sg', PERSON=3] dialogue))
+  (VP[NUM='sg', PERSON=3, SENTIMENT='negative']
+    (V[NUM='sg', PERSON=3] is)
+    (ADJ[SENTIMENT='negative'] tedious[SENTIMENT=negative]))
+  (CONJ[] and)
+  (NP[NUM='sg', PERSON=3]
+    (Det[NUM='sg'] the)
+    (N[NUM='sg', PERSON=3] pacing))
+  (ADJ[SENTIMENT='negative'] slow[SENTIMENT=negative]))
+
+
+"The film has a good ending but does not entertain"
+
+(S[NUM='sg', PERSON=3, SENTIMENT='negative']
+  (NP[NUM='sg', PERSON=3]
+    (Det[NUM='sg'] The)
+    (N[NUM='sg', PERSON=3] film))
+  (VP[NUM='sg', PERSON=3, SENTIMENT='positive']
+    (V[NUM='sg', PERSON=3] has)
+    (NP[NUM='sg', PERSON=3, SENTIMENT='positive']
+      (Det[NUM='sg'] a)
+      (ADJ[SENTIMENT='positive'] good[SENTIMENT=positive])
+      (N[NUM='sg'] ending)))
+  (CONJ[] but)
+  (VP[NUM='sg', PERSON=3, SENTIMENT='negative']
+    (V[NUM='sg', PERSON=3] does)
+    (NEG[] not)
+    (V[NUM='sg', PERSON=3] entertain[SENTIMENT=positive])))
+
+"The film, lacking real acting and originality, is not a failure"
+
+(S[NUM='sg', PERSON=3, SENTIMENT='positive']
+  (NP[NUM='sg', PERSON=3]
+    (Det[NUM='sg'] The)
+    (N[NUM='sg', PERSON=3] film)
+    (PartP[NUM='sg']
+      (V[] lacking[SENTIMENT=negative])
+      (NP[NUM='sg', PERSON=3]
+        (ADJ[NUM='sg'] real)
+        (N[NUM='sg', PERSON=3] acting)
+        (CONJ[] and)
+        (N[NUM='sg', PERSON=3] originality[SENTIMENT=positive]))))
+  (VP[NUM='sg', PERSON=3, SENTIMENT='positive']
+    (V[NUM='sg', PERSON=3] is)
+    (NEG[] not)
+    (Det[NUM='sg'] a)
+    (N[NUM='sg', PERSON=3, SENTIMENT='negative'] failiure)))
+
+"The overall production of the script is not brilliant."
+
+(S[NUM='sg', PERSON=3, SENTIMENT='negative']
+  (NP[NUM='sg', PERSON=3]
+    (Det[NUM='sg'] The)
+    (ADJ[NUM='sg'] overall)
+    (N[NUM='sg', PERSON=3] production)
+    (PP[NUM='sg']
+      (P[] of)
+      (NP[NUM='sg', PERSON=3]
+        (Det[NUM='sg'] the)
+        (N[NUM='sg', PERSON=3] script))))
+  (VP[NUM='sg', PERSON=3, SENTIMENT='negative']
+    (V[NUM='sg', PERSON=3] is)
+    (NEG[] not)
+    (ADJ[SENTIMENT='postitive'] brilliant[SENTIMENT=positive])))
+
+
+john carpenter apparently believes that action scenes in which people fight something horrible are the same as horror scenes. For a writer and director of horror films , supposedly an expert on horror , it is a very bad mistake to make .
+
+(S[NUM='sg', PERSON=3, SENTIMENT='negative']
+  (S[NUM='sg', PERSON=3, SENTIMENT='neutral']
+    (NP[NUM='sg', PERSON=3]
+      (N[NUM='sg', PERSON=3] John)
+      (NP[NUM='sg', PERSON=3] (N[NUM='sg', PERSON=3] Carpenter)))
+    (VP[NUM='sg', PERSON=3]
+      (Adv[] apparently)
+      (V[NUM='sg', PERSON=3] believes))
+    (CONJ[] that)
+    (NP[NUM='pl', PERSON=3]
+      (N[NUM='sg', PERSON=3] action)
+      (N[NUM='pl'] scenes))
+    (PreP[]
+      (P[] in)
+      (RelP[] which)
+      (Rel[]
+        (NP[NUM='pl', PERSON=3] (N[NUM='pl'] people))
+        (VP[NUM='pl', PERSON=3]
+          (V[NUM='pl', PERSON=3] fight)
+          (NP[NUM='sg', PERSON=3, SENTIMENT='negative']
+            (N[NUM='sg'] something)
+            (ADJ[SENTIMENT='negative'] horrible[SENTIMENT=negative])))))
+    (VP[NUM='pl', PERSON=3]
+      (V[NUM='pl', PERSON=3] are)
+      (CompP[]
+        (AdjP[] (Det[] the) (Adj[] same) (P[] as))
+        (NP[NUM='pl', PERSON=3]
+          (N[NUM='sg', PERSON=3] horror)
+          (N[NUM='pl'] scenes)))))
+  (S[NUM='sg', PERSON=3, SENTIMENT='negative']
+    (PrepP[]
+      (P[] For)
+      (NP[NUM='sg', PERSON=3]
+        (Det[NUM='sg'] a)
+        (N[NUM='sg', PERSON=3] writer)
+        (CONJ[] and)
+        (N[NUM='sg', PERSON=3] director)
+        (PrepP[]
+          (P[] of)
+          (NP[NUM='pl', PERSON=3]
+            (N[NUM='sg', PERSON=3] horror)
+            (N[NUM='pl'] films)))))
+    (ParP[]
+      (Adv[] supposedly)
+      (NP[NUM='sg', PERSON=3]
+        (Det[NUM='sg'] an)
+        (N[NUM='sg', PERSON=3] expert)
+        (PrepP[]
+          (P[] on)
+          (NP[NUM='sg', PERSON=3] (N[NUM='sg', PERSON=3] horror)))))
+    (NP[NUM='sg', PERSON=3] (P[] it))
+    (VP[NUM='sg', PERSON=3, SENTIMENT='negative']
+      (V[NUM='sg', PERSON=3] is)
+      (NP[NUM='sg', PERSON=3, SENTIMENT='negative']
+        (Det[NUM='sg'] a)
+        (AdjP[SENTIMENT='negative']
+          (Adv[] very)
+          (ADJ[SENTIMENT='negative'] bad[SENTIMENT=negative]))
+        (N[NUM='sg', SENTIMENT='negative']
+          mistake[SENTIMENT=negative]))
+      (Inf[] (InfM[] to) (V[] make)))))
